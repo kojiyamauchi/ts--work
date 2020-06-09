@@ -38,7 +38,7 @@ export default class PickQueryString {
     return this._pickParameterGender
   }
 
-  set pickParameterGender(arg) {
+  set pickParameterGender(arg: string | null) {
     this._pickParameterGender = arg
   }
 

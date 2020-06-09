@@ -168,7 +168,7 @@ export default class Diagnosis {
     return this._baseCalorie
   }
 
-  set baseCalorie(arg) {
+  set baseCalorie(arg: number | null) {
     this._baseCalorie = arg
   }
 
@@ -176,7 +176,7 @@ export default class Diagnosis {
     return this._gender
   }
 
-  set gender(arg) {
+  set gender(arg: string | null) {
     this._gender = arg
   }
 
@@ -184,7 +184,7 @@ export default class Diagnosis {
     return this._commuting
   }
 
-  set commuting(arg) {
+  set commuting(arg: string | null) {
     this._commuting = arg
   }
 
@@ -192,7 +192,7 @@ export default class Diagnosis {
     return this._work
   }
 
-  set work(arg) {
+  set work(arg: string | null) {
     this._work = arg
   }
 
